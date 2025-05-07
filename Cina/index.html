@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Kalkulator Cina</title>
+</head>
+<body>
+    <div class="Cina">
+        <div class="display" id="display">0</div>
+        <div class="buttons">
+            <button class="clear" id="clear" onclick="ClearDisplay()">AC</button>
+            <button class="operator" id="toggleSign">+/-</button>
+            <button class="operator" id="persen">%</button>
+            <button class="operator" id="bagi" onclick="bagi('÷')">÷</button>
+            
+            <button class="number" id="tujuh" onclick="numberseven(7)">7</button>
+            <button class="number" id="delapan" onclick="numbereight(8)">8</button>
+            <button class="number" id="sembilan" onclick="numbernine(9)">9</button>
+            <button class="operator" id="kali" onclick="kali('x')">×</button>
+            
+            <button class="number" id="empat" onclick="numberfour(4)">4</button>
+            <button class="number" id="lima" onclick="numberfive(5)">5</button>
+            <button class="number" id="enam" onclick="numbersix(6)">6</button>
+            <button class="operator" id="kurang" onclick="kurang('-')">-</button>
+            
+            <button class="number" id="satu" onclick="numberone(1)">1</button>
+            <button class="number" id="dua" onclick="numbertwo(2)">2</button>
+            <button class="number" id="tiga" onclick="numberthree(3)">3</button>
+            <button class="operator" id="tambah" onclick="tambah('+')">+</button>
+            
+            <button class="number noll" id="noll" onclick="numberzero(0)">0</button>
+            <button class="number" id="decimal">.</button>
+            <button class="samadengan" id="samadengan" onclick="total()">=</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

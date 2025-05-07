@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.Cina {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding: 20px;
+}
+
+.display {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  text-align: right;
+  font-size: 24px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.number {
+  border-radius: 55px;
+  background-color: #66637e;
+  box-shadow: 5px 5px 10px #292832, -5px -5px 10px #a39eca;
+}
+
+.number:hover {
+  background-color: #ddd;
+}
+
+.operator {
+  border-radius: 55px;
+  background-color: #9c94d6;
+  box-shadow: 5px 5px 3px #3e3b56, -5px -5px 3px #faedff;
+}
+
+.operator:hover {
+  color: #66637e;
+}
+
+.samadengan {
+  border-radius: 55px;
+  background-color: #ff9500;
+  box-shadow: 5px 5px 3px #3e3b56, -5px -5px 3px #faedff;
+}
+
+.clear {
+  border-radius: 58px;
+  background-color: #b45a50;
+  box-shadow: 5px 5px 19px #482420, -5px -5px 19px #ff9080;
+}
+
+.clear:hover {
+  color:#ff9500 ;
+}
+
+.noll {
+  grid-column: span 2;
+}
