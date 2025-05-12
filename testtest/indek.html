@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+    
+        <!-- element akan ditambahkan disini -->
+    </div>
+    <script>
+        // buat element <p> baru
+        let paragraphElement = document.createElement('p');
+        
+        // TAMBAHKAN TEKS kedalam element <p>
+            paragraphElement.innerText = 'ini adalah teks baru yang di tambahkan secara dinamis'
+
+        // sisipkan element <p> kedalam element dengan ID 'container'
+            document.getElementById('container').appendChild(paragraphElement)
+    </script>
+</body>
+</html>

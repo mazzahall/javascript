@@ -1,0 +1,32 @@
+
+
+
+
+
+
+
+
+
+
+.operator {
+    background-color: #ff9500;
+    color: white;
+}
+
+.operator:hover {
+    background-color: #e68a00;
+}
+
+.samadengan {
+    background-color: #ff9500;
+    color: white;
+}
+
+.clear {
+    background-color: #a5a5a5;
+    color: white;
+}
+
+.noll {
+    grid-column: span 2;
+}

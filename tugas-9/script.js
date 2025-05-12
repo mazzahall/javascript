@@ -15,12 +15,10 @@ if (nilaiMTK >= 91 || nilaiIPA >= 91 || nilaiIPS >= 91) {
   console.log("andi tidak lulus");
 }
 //soal 3
-let isLoggedIn = true
+let isLoggedIn = true;
 if (!isLoggedIn) {
-    console.log("anda sudah login");
-    
+  console.log("anda sudah login");
 } else {
-    console.log("anda belum login");
-    
+  console.log("anda belum login");
 }
 
